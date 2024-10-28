@@ -1,0 +1,40 @@
+/*styling for a claass*/
+.card{
+    border: 1px solid #add;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 10px;
+    border-radius: 8xp;
+}
+
+/*styling for an ID*/
+#main-heading{
+    font-size: 2em;
+    color:#333;
+    text-align: center;
+    margin-bottom: 20xp;
+}
+
+/*stiyling for an attribute selector (targeting links with the "target" atribute)*/
+a[target ="_blank"] {
+color :#007bff;
+text-decoration: underline;
+}
+a[target="-blank"]:hovver {
+    color:#0056b3;
+}
+
+/*styling for an input element with the "type" attribute set to text */
+input[type="text"] {
+    width:100%;
+    padding:10xp;
+    border:1px solid #ccc;
+    border-radius: 4xp;
+    margin-bottom: 15xp;
+}
+/*styling for an disabled button (using attributeb selector)*/
+button[disabled] {
+    background-color:#ccc;
+    color: #666;
+    cursor:not not-allowed;
+}
