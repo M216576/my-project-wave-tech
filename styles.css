@@ -1,10 +1,5 @@
-/*styling for a claass*/
-.card{
-    border: 1px solid #add;
-    padding: 20px;
-    background-color: #f9f9f9;
-    margin: 10px;
-    border-radius: 8xp;
+h1{
+    text-shadow: 0px 0px yellow,0px -5px 5px rgb(210, 25, 12);
 }
 
 /*styling for an ID*/
@@ -26,15 +21,50 @@ a[target="-blank"]:hovver {
 
 /*styling for an input element with the "type" attribute set to text */
 input[type="text"] {
-    width:100%;
+    width:50%;
     padding:10xp;
-    border:1px solid #ccc;
+    border:1px solid #941616;
     border-radius: 4xp;
     margin-bottom: 15xp;
 }
 /*styling for an disabled button (using attributeb selector)*/
 button[disabled] {
-    background-color:#ccc;
-    color: #666;
+    background-color:#143d6c;
+    color: #c90000c7;
     cursor:not not-allowed;
+}
+input{
+    border-radius: 30px;
+    border-radius: 30px;
+    background-color: #53523b;
+    display: block;
+
+}
+.box-1{
+    width: 70px;
+    height:50px;
+    background-color: blue;
+    z-index: 500;
+    position:  absolute;
+}
+.box-2{
+    background-color: #941616;
+    width: 40px;
+    height: 30px;
+    z-index:1000 ;
+    position: absolute;
+
+}
+
+.container{
+width: 800px;
+min-width: 90px;
+}
+
+p1{
+    font-size-adjust: 100px;
+}
+
+body{
+    background-color: #aeb8c3;
 }
